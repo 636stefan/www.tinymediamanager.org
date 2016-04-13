@@ -1,0 +1,56 @@
+#
+#   Navigation to the left › side: left
+#
+- title: Home
+  url: "/"
+  side: left
+
+- title: Features
+  url: "/features/"
+  side: left
+
+- title: Screenshots
+  url: "/screenshots/"
+  side: left
+
+- title: Download
+  url: "/download/"
+  side: left
+
+- title: Blog
+  url: "/blog/"
+  side: left
+
+- title: Help
+  side: left
+  dropdown:
+  - title: Wiki
+    url: "https://github.com/tinyMediaManager/tinyMediaManager/wiki"
+    side: left
+
+  - title: FAQ
+    url: "https://github.com/tinyMediaManager/tinyMediaManager/wiki/FAQ"
+    side: left
+
+  - title: Forum
+    url: "http://forum.xbmc.org/forumdisplay.php?fid=204"
+    side: left
+
+- title: Changelog
+  url: "/changelog"
+  side: left
+
+#
+#   Navigation to the right › side: right
+#
+- title: "Donate"
+  url: "/donate/"
+  side: right
+
+- title: "Search"
+  url: "/search/"
+  side: right
+
+- title: "Contact"
+  url: "/contact/"
+  side: right

@@ -1,0 +1,28 @@
+<div id="front-slider">
+  <div class="row">
+    <div class="t30 medium-12 columns slider-wrapper theme-light">
+      <div class="slider-wrapper theme-light">
+        <div id="slider" class="nivoSlider">
+          <img src="{{ site.urlimg }}/slider/slider_movies-960x400.jpg" title="&lt;h2&gt;Movie Management&lt;/h2&gt;
+Get data from &lt;b&gt;TheMovieDB.org&lt;/b&gt;, &lt;b&gt;Imdb.com&lt;/b&gt;, &lt;b&gt;Ofdb.de&lt;/b&gt;, &lt;b&gt;zelluloid.de&lt;/b&gt;, &lt;b&gt;HD-Trailers.net&lt;/b&gt;&lt;br&gt;
+Create NFO for use with &lt;b&gt;XBMC&lt;/b&gt;, &lt;b&gt;MediaPortal&lt;/b&gt;&lt;br&gt;
+Automatically rename files and folders as you like" />
+          <img src="{{ site.urlimg }}/slider/slider_moviesets-960x400.jpg" title="&lt;h2&gt;Movieset Management&lt;/h2&gt;
+Organize movies into collections&lt;br&gt;
+Set artwork for moviesets&lt;br&gt;
+Support NFO tags for moviesets for &lt;b&gt;XBMC&lt;/b&gt; and &lt;b&gt;MediaPortal&lt;/b&gt;" alt=""/>
+          <img src="{{ site.urlimg }}/slider/slider_tvshows-960x400.jpg" title="&lt;h2&gt;TV show management&lt;/h2&gt;
+find TV shows and episodes in subdirectories - powerful episode/season detection&lt;br&gt;
+Get data from &lt;b&gt;TheTvDB.com&lt;/b&gt;&lt;br&gt;
+Create NFO for use with &lt;b&gt;XBMC&lt;/b&gt;&lt;br&gt;" />
+          <img src="{{ site.urlimg }}/slider/slider_os.png" title="&lt;h2&gt;Multi OS support&lt;/h2&gt;
+&lt;b&gt;Windows&lt;/b&gt;&lt;br&gt;
+&lt;b&gt;Linux&lt;/b&gt;&lt;br&gt;
+&lt;b&gt;Mac OSX&lt;/b&gt;" />
+          <img src="{{ site.urlimg }}/slider/slider_update-960x400.jpg" title="&lt;h2&gt;Automatic updates&lt;/h2&gt;
+Automatic updates at startup ensure you have always the latest version" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

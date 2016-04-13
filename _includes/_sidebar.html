@@ -1,0 +1,26 @@
+<aside>
+	<div class="panel radius">
+		<h3>Categories</h3>
+		<ul>
+      {% for category in site.categories %}
+      <li><a href="/categories/{{category | first}}">{{category | first}} ({{category | last | size }})</a></li>
+      {% endfor %}
+    </ul>
+	</div>
+	<div class="panel radius">
+		<h3>Archive</h3>
+		<ul>
+			{% assign counter = 0 %}
+			{% for post in site.posts %}
+				{% assign thisyear = post.date | date: "%B %Y" %}
+				{% assign prevyear = post.previous.date | date: "%B %Y" %}
+				{% assign counter = counter | plus: 1 %}
+				{% if thisyear != prevyear %}
+					<li><a href="/blog/archive/{{ post.date | date: "%Y" }}/{{ post.date | date: "%m"}}/">{{ thisyear }} ({{ counter }})</a></li>
+					{% assign counter = 0 %}
+				{% endif %}
+			{% endfor %}
+		</ul>
+	</div>
+
+</aside>

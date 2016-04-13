@@ -1,0 +1,17 @@
+- menu_name: "Links"
+
+- name: "Wiki"
+  url: "https://github.com/tinyMediaManager/tinyMediaManager/wiki"
+  title: "Our wiki at GitHub"
+
+- name: "Frequently Asked Questions"
+  url: "https://github.com/tinyMediaManager/tinyMediaManager/wiki/FAQ"
+  title: "Frequently Asked Questions"
+
+- name: "Forum"
+  url: "http://forum.kodi.tv/forumdisplay.php?fid=204"
+  title: "Our forum at the Kodi forums"
+
+- name: "GitHub"
+  url: "https://github.com/tinyMediaManager/tinyMediaManager"
+  title: "Our code repository at GitHub"

@@ -1,0 +1,151 @@
+#front-slider {
+  color: $footer-color;
+}
+
+#front-slider h1, #front-slider h2, #front-slider h3, #front-slider h4,
+#front-slider h5 {
+  color: $footer-color;
+}
+
+#front-slider .flex-control-paging li a {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#front-slider .flex-control-paging li a.flex-active {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.gallery-item {
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+    width: 23%;
+    padding: 6px;
+}
+
+pre.changelog {
+  font-size: 0.9em;
+  background-color: inherit;
+}
+
+.slide-contents {
+  margin: 40px;
+}
+
+.wrapper-fullwidth {
+  padding-top: 30px;
+  padding-bottom: 30px; 
+  background-color: $topbar-bg-color;  
+}
+
+.wrapper-fullwidth-transparent {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: none;  
+}
+
+.wrapper {
+  background-color: $topbar-bg-color;
+  border: 1px solid $grey-1;
+  border-radius: 4px;
+  padding-top: 2rem;
+}
+
+.frontpage-widget {
+  width: 25%;
+  margin-right: 12.5%;
+  height:17rem;
+  padding-top: 1.2rem;
+  border: none;
+}
+
+.frontpage-widget-header {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.frontpage-widget .button {
+  position: absolute;
+  bottom: 0.5em;
+}
+
+.widget {
+  width: 30%;
+  margin-right: 5%;
+  padding-top: 1.2rem;
+  border: none;
+  margin-bottom: 40px;
+}
+
+.widget-header {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-bottom: 0.5em;  
+}
+
+.fit {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+#quotes {
+  list-style: none;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#quotes li {
+  display: none;
+}
+
+.quote-widget {
+  height:17rem;
+  background: none;
+  border: none;
+}
+
+.quote {
+  background: $footer-color none repeat scroll 0px 0px;
+  border: $grey-1 solid 1px;
+  border-radius: 6px;
+  display: block;
+  padding: 2em;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  position: relative;
+  font-size: 1.3em;
+}
+
+.quote:before {
+    border-color: rgba(0, 0, 0, 0.3) rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-width: 14px 14px 0;
+    bottom: -14px;
+    content: "";
+    display: block;
+    right: 20px;
+    position: absolute;
+    width: 0;
+}
+.quote:after {
+    border-color: $footer-color rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-width: 13px 13px 0;
+    bottom: -13px;
+    content: "";
+    display: block;
+    right: 22px;
+    position: absolute;
+    width: 0;
+}
+
+.quoteauthor {
+  display: block;
+  text-align: right;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.1em;
+  padding-top: 15px;
+  padding-right: 15px;
+}
