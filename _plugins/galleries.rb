@@ -37,6 +37,7 @@ module Jekyll
 
 			images_html = ""
 			images_html << "<ul class=\"gallery-list\">\n" if columns <= 0
+			images_html << "<div class=\"row\">" if columns > 0
 			images.each_with_index do |image, key|
                 if columns > 0
                     images_html << gen_images_column_html(image, width, height, custom_attribute_name, key, columns)
@@ -44,7 +45,8 @@ module Jekyll
                     images_html << gen_images_list_html(image, width, height, custom_attribute_name)
                 end
 			end
-            images_html << "</ul>\n" if columns <= 0
+			images_html << "</ul>\n" if columns <= 0
+			images_html << "</div>" if columns > 0
 			images_html << "<br style=\"clear: both;\">" if columns > 0 && images.count % columns != 0
 			gallery_html = "<div class=\"gallery\">\n\n#{images_html}\n\n</div>\n"
 
@@ -58,7 +60,8 @@ module Jekyll
 			html << "</dt>\n"
 			html << "<dd class=\"gallery-caption\">#{image['caption']}</dd>"
 			html << "</dl>\n\n"
-			html << "<br style=\"clear: both;\">" if (key + 1) % columns == 0
+			html << "</div>" if (key + 1) % columns == 0
+			html << "<div class=\"row\">" if (key + 1) % columns == 0
 
 			return html
 		end

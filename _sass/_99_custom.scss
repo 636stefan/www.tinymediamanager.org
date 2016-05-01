@@ -19,6 +19,7 @@
     float: left;
     margin-top: 10px;
     margin-bottom: 0px;
+    margin-right: 2%;
     text-align: center;
     width: 23%;
     padding: 6px;
@@ -35,14 +36,14 @@ pre.changelog {
 
 .wrapper-fullwidth {
   padding-top: 30px;
-  padding-bottom: 30px; 
-  background-color: $topbar-bg-color;  
+  padding-bottom: 30px;
+  background-color: $topbar-bg-color;
 }
 
 .wrapper-fullwidth-transparent {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: none;  
+  background-color: none;
 }
 
 .wrapper {
@@ -82,7 +83,7 @@ pre.changelog {
 .widget-header {
   font-size: 1.4em;
   font-weight: bold;
-  margin-bottom: 0.5em;  
+  margin-bottom: 0.5em;
 }
 
 .fit {

@@ -4,6 +4,45 @@ title:  "Changelog"
 
 permalink: "/changelog/"
 ---
+
+**01.04.2016 – Version 2.7.4**
+<br />=======================<br />
+\+ added vote count for Tv shows and episodes  
+x fixed TvShow renamer when having duplicate tokens or multi episodes  
+x fixed MovieRenamerPreview when using a sorted list  
+x fixed TMM restart (when resetting database)  
+x Display information, why plugins could not be loaded  
+x fixed copy/paste hotkeys for several UI field on OSX  
+x fixed exporter file name creation  
+x fixed writing set info for MediaPortal NFO files  
+x fixed movie import with folder stacking  
+
+---
+
+**17.03.2016 – Version 2.7.3**
+<br />=======================<br />
+\+ bug reports are now solved via GitHub issues  
+\+ added image exporting in the export templates (see [http://goo.gl/kuSYlH](http://goo.gl/kuSYlH) or in the wiki)  
+\+ added media source to the TV show section  
+\+/x moved fanart.tv client key to the scraper settings (and released it for everyone)  
+x Kodi scraper: fix some invalid XML headers  
+x OFDB scraper: fix actor/cast parsing  
+x Zelluloid.de: fix actor/cast parsing, and fallback for broken web search  
+x Trakt.tv: fix writing correct watched state to NFO  
+x CMD: update TvShows only scrapes new episodes, not all  
+x improved data source update; parse new entries first  
+x improved TV show renamer for multi episode files  
+x finally fixed the NEW indicator behavior - it will now work as in versions before 2.7 (NEW stays for the whole tmm session)  
+x improved performance in the update data sources for TV shows  
+x fixed searching for movie set artwork in movie folders  
+x only write guests into episode NFO  
+x fixed error in movie set editor when no movie was selected  
+x remember last opened directory in the new chooser  
+x TvShows: fix studio writing  
+x fix loading of the movie-duplicate filter at startup  
+
+---
+
 **22.01.2016 - Version 2.7.2**
 <br />=======================<br />
 LINUX: We've removed the shipped mediainfo library due to massive problems between
