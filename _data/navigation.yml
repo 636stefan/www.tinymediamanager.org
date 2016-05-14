@@ -16,6 +16,18 @@
 - title: Download
   url: "/download/"
   side: left
+  dropdown:
+  - title: Release
+    url: "/download/"
+    side: left
+
+  - title: Pre release
+    url: "/download/prerelease"
+    side: left
+
+  - title: Nightly build
+    url: "/download/nightly-build"
+    side: left
 
 - title: Blog
   url: "/blog/"

@@ -11,25 +11,26 @@ permalink: /index.html
 ---
 <div class="wrapper-fullwidth">
   <div class="row">
+  <div class="wrapper medium-4 columns frontpage-widget t30 b30">
+  <div class="frontpage-widget-header"><img src="{{ site.urlimg }}/go-down.png" /> Download</div>
+  Get the latest version of tinyMediaManager for <em><b>Windows</b></em>, <em><b>Linux</b></em> and <em><b>Mac OSX</b></em>
+  <br />
+  <a class="button large radius download" href="{{ site.baseurl }}/download"><i class="fa fa-download"></i> Download</a>
+  <a class="bottom small" href="{{ site.baseurl }}/download/all-downloads">all downloads</a>
+  </div>
+
     <div class="wrapper medium-4 columns frontpage-widget t30 b30">
     <div class="frontpage-widget-header"><img src="{{ site.urlimg }}/features.png" /> Features</div>
     tinyMediaManager is a full featured media manager to organize and clean up your media library.
     <br />
-    <a class="button small radius" href="{{ site.baseurl }}/features">More ›</a>
-    </div>
-
-    <div class="wrapper medium-4 columns frontpage-widget t30 b30">
-    <div class="frontpage-widget-header"><img src="{{ site.urlimg }}/screenshots.png" /> Screenshots</div>
-    See some screenshots of tinyMediaManager in action.
-    <br />
-    <a class="button small radius" href="{{ site.baseurl }}/screenshots">More ›</a>
+    <a class="button radius" href="{{ site.baseurl }}/features">More ›</a>
     </div>
 
     <div class="wrapper medium-4 columns frontpage-widget fit t30 b30">
-    <div class="frontpage-widget-header"><img src="{{ site.urlimg }}/go-down.png" /> Download</div>
-    Get the latest version of tinyMediaManager for <em><b>Windows</b></em>, <em><b>Linux</b></em> and <em><b>Mac OSX</b></em>
+    <div class="frontpage-widget-header"><img src="{{ site.urlimg }}/screenshots.png" /> Screenshots</div>
+    See some screenshots of tinyMediaManager in action.
     <br />
-    <a class="button small radius" href="{{ site.baseurl }}/download">More ›</a>
+    <a class="button radius" href="{{ site.baseurl }}/screenshots">More ›</a>
     </div>
   </div>
 </div>    

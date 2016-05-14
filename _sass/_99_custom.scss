@@ -72,6 +72,12 @@ pre.changelog {
   bottom: 0.5em;
 }
 
+.frontpage-widget .bottom {
+  position: absolute;
+  bottom: 0.0em;
+  font-size: 0.8em;
+}
+
 .widget {
   width: 30%;
   margin-right: 5%;
@@ -149,4 +155,18 @@ pre.changelog {
   font-size: 1.1em;
   padding-top: 15px;
   padding-right: 15px;
+}
+
+.download {
+  background:#7db500;;
+  background:-webkit-gradient(linear,left top,left bottom,color-stop(#7db500,0),color-stop(#69884F,1));
+  background:-webkit-linear-gradient(top, #7db500 0%, #69884F 100%);
+  background:-moz-linear-gradient(top, #7db500 0%, #69884F 100%);
+  background:-o-linear-gradient(top, #7db500 0%, #69884F 100%);
+  background:linear-gradient(top, #7db500 0%, #69884F 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db500', endColorstr='#69884F',GradientType=0 );
+}
+
+.download:hover {
+  background-color: $success-color;
 }
