@@ -3,7 +3,7 @@ $(function(){
   $(".message").removeClass("success").removeClass("error").addClass("loader").html("Sending message").fadeIn("slow");
 
   var ext = $('input[name=file_attach]').val().split('.').pop().toLowerCase();
-  if($.inArray(ext, ['zip','7z','gzip','gz']) == -1) {
+  if($.inArray(ext, ['', 'zip','7z','gzip','gz']) == -1) {
     alert('invalid file extension!');
     return false;
   }
@@ -18,7 +18,7 @@ $(function(){
 
   $.ajax({
    type: "POST",
-   url: "../contact.php",
+   url: "../bin/contact.php",
    data: m_data,
    cache: false,
    dataType: "text",
@@ -35,6 +35,7 @@ $(function(){
       $(".message").html("Captcha not solved correctly");
       break;
      case "success": // all good
+      $("#contact")[0].reset();
       $(".message").removeClass("loader").addClass("success");
       $(".message").html("Your message has been sent. You'll soon hear from us!");
       break;
