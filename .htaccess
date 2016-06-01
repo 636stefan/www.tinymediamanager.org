@@ -1,12 +1,17 @@
 RewriteEngine On
 
 # Map http://www.tinymediamanager.org to /site.
-RewriteRule ^$ /site/ [L]
+RewriteRule ^(/)?$ /site/index.html [L]
+
+# Map old WP links to the new links
+RewriteCond %{REQUEST_URI} ^/index\.php/
+RewriteRule ^.*index\.php/(.*)$ /site/blog/$1 [L,R=301]
 
 # Map http://www.tinymediamanager.org/x to /site/x unless there is a x in the web root.
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_URI} !^/site/
+RewriteCond %{REQUEST_URI} !^/index\.php/
 RewriteRule ^(.*)$ /site/$1
 
 # Add trailing slash to directories within /site
