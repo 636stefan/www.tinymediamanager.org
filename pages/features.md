@@ -35,23 +35,23 @@ permalink: "/features/"
   <div class="row">  
     <div class="widget medium-4 columns">
       <div class="widget-header">Scrape meta data</div>
-      tinyMediaManger gets all necessary meta data for your movies from <b>TheMovieDB.org</b>, <b>Imdb.com</b>, <b>OFDb.de</b>, <b>Moviemeter.nl</b> and even more.
+      tinyMediaManger gets all necessary meta data for your movies from <b><a href="https://www.themoviedb.org" target="_blank">TheMovieDB.org</a></b>, <b><a href="http://www.imdb.com" target="_blank">Imdb.com</a></b>, <b><a href="http://www.ofdb.de/" target="_blank">OFDb.de</a></b>, <b><a href="http://www.moviemeter.nl" target="_blank">Moviemeter.nl</a></b> and even more.
     </div>
 
     <div class="widget medium-4 columns">
       <div class="widget-header">Get artwork</div>
-      Artwork such as fanart, poster, clearart, discart, logos and more can be downloaded from <b>TheMovieDB.org</b> and <b>Fanart.tv</b>.
+      Artwork such as fanart, poster, clearart, discart, logos and more can be downloaded from <b><a href="https://www.themoviedb.org" target="_blank">TheMovieDB.org</a></b> and <b><a href="https://fanart.tv" target="_blank">Fanart.tv</a></b>.
     </div>
 
     <div class="widget medium-4 columns fit ">
       <div class="widget-header">Get trailers</div>
-      Get a list of available trailers for your movies from <b>TheMovieDB.org</b> and <b>HD-Trailers.net</b>.
+      Get a list of available trailers for your movies from <b><a href="https://www.themoviedb.org" target="_blank">TheMovieDB.org</a></b> and <b><a href="http://www.hd-trailers.net" target="_blank">HD-Trailers.net</a></b>.
     </div>
   </div>
   <div class="row">
     <div class="widget medium-4 columns">
       <div class="widget-header">Get subtitles</div>
-      Get a list of available subtitles for your movies from <b>OpenSubtitles.org</b>.
+      Get a list of available subtitles for your movies from <b><a href="http://www.opensubtitles.org" target="_blank">OpenSubtitles.org</a></b>.
     </div>
     <div class="widget medium-4 columns">
       <div class="widget-header">Edit meta data</div>
@@ -91,12 +91,12 @@ permalink: "/features/"
 
     <div class="widget medium-4 columns">
       <div class="widget-header">Artwork for movie sets</div>
-      There is also artwork for movie sets: you can take artwork from <b>TheMovieDB.org</b> or local files and store them for use with Kodi/MediaPortal.
+      There is also artwork for movie sets: you can take artwork from <b><a href="https://www.themoviedb.org" target="_blank">TheMovieDB.org</a></b> or local files and store them for use with Kodi/MediaPortal.
     </div>
 
     <div class="widget medium-4 columns fit ">
       <div class="widget-header">Assign movies</div>
-      Since most of the movie sets are already maintained in <b>TheMovieDB.org</b>, tinyMediaManager can use this information to automatically assign movies into the right movie sets.
+      Since most of the movie sets are already maintained in <b><a href="https://www.themoviedb.org" target="_blank">TheMovieDB.org</a></b>, tinyMediaManager can use this information to automatically assign movies into the right movie sets.
     </div>
   </div>
 </div>  
@@ -114,27 +114,28 @@ permalink: "/features/"
 
     <div class="widget medium-4 columns">
       <div class="widget-header">Scrape meta data</div>
-      tinyMediaManger gets all necessary meta data for your TV shows from <b>TheTVDB.com</b>, <b>TheMovieDB.org</b> and <b>Imdb.com</b>.
+      tinyMediaManger gets all necessary meta data for your TV shows from <b><a href="http://thetvdb.com" target="_blank">TheTVDB.com</a></b>, <b><a href="https://www.themoviedb.org" target="_blank">TheMovieDB.org</a></b> and <b><a href="http://www.imdb.com" target="_blank">Imdb.com</a></b>.
     </div>
 
     <div class="widget medium-4 columns fit ">
       <div class="widget-header">Get Artwork</div>
-      Download artwork for your TV shows and episodes from <b>TheTVDB.com</b>, <b>TheMovieDB.org</b> and <b>Fanart.tv</b>.
+      Download artwork for your TV shows and episodes from <b><a href="http://thetvdb.com" target="_blank">TheTVDB.com</a></b>, <b><a href="https://www.themoviedb.org" target="_blank">TheMovieDB.org</a></b> and <b><a href="https://fanart.tv" target="_blank">Fanart.tv</a></b>.
     </div>
   </div>
    <div class="row">  
+   <div class="widget medium-4 columns">
+     <div class="widget-header">Get subtitles</div>
+     Get a list of available subtitles for your TV shows from <b><a href="http://www.opensubtitles.org" target="_blank">OpenSubtitles.org</a></b>.
+   </div>
+
     <div class="widget medium-4 columns">
       <div class="widget-header">Edit meta data</div>
       If you aren't satisfied with the scraper results, you can manually change all meta data and artwork.
     </div>
 
-    <div class="widget medium-4 columns">
+    <div class="widget medium-4 columns fit">
       <div class="widget-header">Create NFOs</div>
       tinyMediaManager will produce Kodi compatible NFOs as well as import NFOs written by other tools (like EmberMediaManager). This will allow an easy tool migration to tinyMediaManager.
-    </div>
-
-    <div class="widget medium-4 columns fit ">
-      &nbsp;
     </div>
   </div>
 </div>
