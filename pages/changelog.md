@@ -5,6 +5,55 @@ title:  "Changelog"
 permalink: "/changelog/"
 ---
 
+**15.06.2016 - Version 2.8.1**
+<br />=======================<br />
+x do not reset certification style to SHORT  
+x remove movies without VIDEO files after update data sources  
+x follow symlinks with our new "update datasource" logic  
+x fixed loading of TV show special season posters  
+x fixed reading codec of Microsoft VC-1 via MediaInfo  
+x fixed update single datasource for movies  
+x fixed renaming movies with colon  
+x prefer MI data from common video types over disc image types  
+x fixed a bug in the renamer where renaming did not work  
+
+---
+
+**13.06.2016 - Version 2.8**
+<br />=======================<br />
+IMPORTANT: changed certification output (in NFO files) from a fixed string to a set of templates.  
+           ! Please check your movie settings after upgrade !  
+           Default for Kodi NFOs: LARGE (e.g. DE:FSK 16 / DE:FSK16 / DE:16 / DE:ab 16)  
+           Default for MP NFOs: TECHNICAL (e.g. DE_FSK16)  
+
+\+ added subtitle scraping (via OpenSubtitles.org) [http://goo.gl/oRnXnr](http://goo.gl/oRnXnr)  
+\+ complete rewrite of "update datasource" for movies - massive performance boost!!!  
+\+ complete rewrite of "update datasource" for TV shows - massive performance boost!!!  
+\+ added edition field for movies (now you can have the same movie in multiple versions without problems) [http://goo.gl/aSWQt8](
+http://goo.gl/aSWQt8)  
+\+ added support for offline media (media stubs) [http://goo.gl/UR1VY7](http://goo.gl/UR1VY7)  
+\+ added .tbn support for episode thumbs (Boxee box support)  
+\+ added a field for movie editions (Extended, Director's cut, ..)  
+\+ added bad words for TV shows  
+\+ added option to opt-out our internal statistics  
+\+ moved scraping of artwork/trailers in a separate task after searching for a movie  
+\+ added option to automatically rename a movie after scraping  
+\+ added option to set the subtitle language style (for better Plex support)  
+x fixed plugin loading from paths containing a +  
+x fix #22 "search episode" scrollbar  
+x fixed TV show image renaming (command line)  
+x fix stacking marker detection for movies  
+x added setting for our internal statistics  
+x fix: use creation/modification date from file to specify dateAdded  
+x fixed sorting of movies (respecting white spaces now)  
+x fixed an optical glitch, where sometimes seasons end episodes appeared twice  
+x detect Blu-Ray as BluRay source  
+x fix: do not write local artwork urls to NFO files  
+x some fixes in the renamers (movie & TV show)  
+x some smaller fixes  
+
+---
+
 **01.04.2016 – Version 2.7.4**
 <br />=======================<br />
 \+ added vote count for Tv shows and episodes  
