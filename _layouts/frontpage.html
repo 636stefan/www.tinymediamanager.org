@@ -86,10 +86,10 @@ format: blog-index
             <p>
               {% if post.meta_description %}{{ post.meta_description | strip_html | escape }}
               {% elsif post.teaser %}{{ post.teaser | strip_html | escape }}
-              {% else %}{{ post.excerpt }}
+              {% else %}{{ post.excerpt | truncatewords:75 }}
               {% endif %}
-              <a href="{{ site.baseurl }}{{ post.url }}" title="Read {{ post.title escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
             </p>
+            <a href="{{ site.baseurl }}{{ post.url }}" title="Read {{ post.title escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
             {% endfor %}
         </div><!-- /.medium-5.columns -->
 
