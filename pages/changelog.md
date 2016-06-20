@@ -369,7 +369,7 @@ x filter duplicate results from ofdb<br />
 x prevent audio streams from being added multiple times<br />
 x detect stacking markers with leading zeros<br />
 x import of watched state from XBMC NFO<br />
-x thousands of various fixes and stabilization from past half year <img src="https://www.tinymediamanager.org/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+x thousands of various fixes and stabilization from past half year :)
 
 ---
 

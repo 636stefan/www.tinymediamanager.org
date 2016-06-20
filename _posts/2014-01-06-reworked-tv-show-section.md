@@ -30,7 +30,7 @@ The biggest change has been a new layout of the TV show related panels: the TV s
 In addition to the new layout some more functional enhancements found their way into the TV show section:
 
   * added a text search field (for searching TV show titles/episode titles)
-  * added an extended filter panel (like in the movie section) - see [new filter panels]({{ site.url }}/blog/filter_panels/)
+  * added an extended filter panel (like in the movie section) - see [new filter panels]({{ site.baseurl }}/blog/filter_panels/)
   * added AniDB scraper (experimental)
   * added [fanart.tv](http://www.fanart.tv) for TV shows
   * drastically improved performance for large TV show databases
