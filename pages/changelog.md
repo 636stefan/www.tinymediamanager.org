@@ -5,6 +5,58 @@ title:  "Changelog"
 permalink: "/changelog/"
 ---
 
+**15.08.2016 - Version 2.8.3**
+<br />=======================<br />
+\+ movies: created an own column for available meta data (reverted logic for NFO column)  
+\+ Take year differences more into account, when comparing scraper search results  
+\+ Do not download default movie poster/fanart, if none selected.  
+\+ Do not write NFO, if none selected.  
+\+ better visualize running tasks  
+\+ Added some memory stats to status bar  
+x fix MediaInfo crash on some DVD ISOs  
+x fix TV Episode NFOs for extracted DVDs  
+x fix CMD line updating of TV shows  
+x fix episode root path for extracted disc folders  
+x fix adding/removing manual subtitle to media files  
+x fix certification on rereading NFO  
+x fix extracting export templates  
+x fix TvShow NFO import when empty production company  
+x fix manual sort title (reseted to empty on every save)  
+x able to handle windows "junction" linked files (deduplication)  
+x better visualize WakeOnLan menu item (disable when none found)  
+
+---
+
+**19.07.2016 - Version 2.8.2**
+<br />=======================<br />
+\+ MediaInfo for ISO files - yay!  
+\+ reworked command line scraping, please check syntax (add scrapeAll, reworked logic for TvShows)  
+\+ added select all/deselect all buttons for metadata scrape options  
+\+ added persian to the scraper languages  
+\+ added telecine, R5 and stream to media sources  
+\+ added extra language setting for subtitle scraping  
+\+ support folder excluding in Kodi style (.nomedia file in folder to exclude)  
+\+ added media source renamer token for TV shows  
+\+ updated tmdb scraper (thanks to @davidsben)  
+\+ updated extras detection to Plex naming scheme  
+\+ IMDB scraper: option to scrape local release date or global release date  
+x fixed movie renamer dropping several image/NFO files  
+x TMDB crash when scraping of several TV shows without artwork  
+x fixed exporting of movies/TV shows  
+x fixed TV show multi-file episode detection  
+x fixed updating of tags in the UI  
+x rename .idx files along with with .sub files  
+x improved writing/reading speed for subtitles and NFO files  
+x do not overwrite external Kodi NFO streamdetails
+x overwrite existing images in the exporter  
+x fix for renaming into subfolders  
+x fixed wrong scraped release dates (where no release date has been found)  
+x fixed TV episode detection for extracted disc files  
+x changed the NFO column to better indicate scraped/unscraped movies  
+x better detection of movie name out of filename  
+
+---
+
 **15.06.2016 - Version 2.8.1**
 <br />=======================<br />
 x do not reset certification style to SHORT  
